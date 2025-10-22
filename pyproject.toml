@@ -1,0 +1,21 @@
+[project]
+name = "almnium-test"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "tai2",email = "hello@tai2.net"}
+]
+readme = "README.md"
+requires-python = ">=3.14,<4.0"
+dependencies = [
+    "alumnium (>=0.14.0,<0.15.0)",
+    "appium-python-client (>=5.2.4,<6.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "almnium_test", from = "src"}]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

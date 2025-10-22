@@ -1,0 +1,19 @@
+{
+  "name": "almnium-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start:appium": "appium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "appium": "^3.1.0",
+    "appium-xcuitest-driver": "^10.2.2"
+  }
+}
