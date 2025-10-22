@@ -1,12 +1,12 @@
 # Setup
 
-In a terminal
-
-Set up python environment. You need poetry.
+Set up python environment first. You need poetry.
 
 ```
 poetry install
 ```
+
+In a terminal
 
 ```
 npm run start:appium 
