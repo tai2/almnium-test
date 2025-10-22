@@ -1,4 +1,12 @@
+# Setup
+
 In a terminal
+
+Set up python environment. You need poetry.
+
+```
+poetry install
+```
 
 ```
 npm run start:appium 
@@ -14,3 +22,7 @@ export OPENAI_API_KEY=$OPENAI_API_KEY
 #export ANTHROPIC_API_KEY=$ANTHROPIC_API_KEY
 poetry run python test.py
 ```
+
+# Wikipedia
+
+You can access the source code of Wikipedia iOS from this repo https://github.com/wikimedia/wikipedia-ios
